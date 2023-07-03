@@ -10,10 +10,6 @@ type Todo = {
   isEditing: boolean;
 };
 
-type task = {
-  task: string;
-};
-
 const TodoWrapper = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
 
